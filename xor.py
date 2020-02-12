@@ -4,7 +4,7 @@ import neat
 import visualize
 
 xor_inputs = [(0.0, 0.0), (0.0, 1.0), (1.0, 0.0), (1.0, 1.0)]
-xor_outputs = [(0.0,), (1.0), (1.0), (0.0)]
+xor_outputs = [0.0, 1.0, 1.0, 0.0]
 
 def eval_genomes(genomes, config):
 	for genomes_id, genome in genome:
@@ -12,7 +12,7 @@ def eval_genomes(genomes, config):
 		net = neat.nn.FeedForwardNetwork.create(genome, config)
 		for xi, xo in zip(xor_inputs, xor_outputs):
 			output = net.activate(xi)
-			genome.fitness -= (output[0] - xo[0]) ** 2
+			genome.fitness -= (output[0] - xo)**2
 
 
 def run(config_file):
