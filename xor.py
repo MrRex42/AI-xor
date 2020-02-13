@@ -51,9 +51,3 @@ if __name__ == '__main__':
 	local_dir = os.path.dirname(__file__)
 	config_path = os.path.join(local_dir, 'NeatConfigXOR.txt')
 	run(config_path)
-	
-"""
-Quand exécution : 
-run (générations 1,2,...) puis erreur : "graphviz.backend.ExecutableNotFound: failed to execute ['dot', '-Tsvg', '-O', 'Digraph.gv'], 
-make sure the Graphviz executables are on your systems' PATH"
-"""
