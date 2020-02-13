@@ -54,6 +54,6 @@ if __name__ == '__main__':
 	
 """
 Quand exécution : 
-run puis graphviz.backend.ExecutableNotFound: failed to execute ['dot', '-Tsvg', '-O', 'Digraph.gv'], 
-make sure the Graphviz executables are on your systems' PATH
+run (générations 1,2,...) puis erreur : "graphviz.backend.ExecutableNotFound: failed to execute ['dot', '-Tsvg', '-O', 'Digraph.gv'], 
+make sure the Graphviz executables are on your systems' PATH"
 """
