@@ -53,7 +53,7 @@ if __name__ == '__main__':
 	run(config_path)
 	
 """
-Quand execution : 
+Quand exécution : 
 run puis graphviz.backend.ExecutableNotFound: failed to execute ['dot', '-Tsvg', '-O', 'Digraph.gv'], 
 make sure the Graphviz executables are on your systems' PATH
 """
