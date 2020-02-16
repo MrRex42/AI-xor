@@ -57,4 +57,5 @@ pip install numpy
 
 ## Sneak Peek 
 
-
+![Capture d’écran 2020-02-16 à 09 37 52](https://user-images.githubusercontent.com/51634013/74603373-29455880-50b3-11ea-80b8-fe42dd9aa9a0.png)
+![Capture d’écran 2020-02-16 à 09 37 59](https://user-images.githubusercontent.com/51634013/74603374-2ba7b280-50b3-11ea-8153-39aef1e0cd9e.png)
