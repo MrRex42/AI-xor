@@ -13,7 +13,7 @@ matplotlib
 numpy
 ```
 
-About graphviz, use : 
+About graphviz, to install it, use : 
 ```
 pip install graphviz
 ```
