@@ -13,6 +13,8 @@ matplotlib
 numpy
 ```
 
+Just run "xor.py". Think to put "xor.py" and "visualize.py" in the same folder. 
+
 ## Neat 
 
 To install neat : 
