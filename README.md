@@ -4,7 +4,7 @@ An AI using NEAT to determine XOR output.
 
 # How to Run this programm ? 
 
-You need to install 
+You need to install :
 
 ```
 neat 
