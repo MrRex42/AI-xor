@@ -2,7 +2,7 @@
 
 An AI using NEAT to determine XOR output.
 
-# How to un this programm ? 
+# How to run this programm ? 
 
 You need to install :
 
